@@ -1,3 +1,3 @@
-Hooks.on("renderFilePicker", () => {
-  console.log(FilePicker.results);
+Hooks.on('renderFilePicker', (app, html, data) => {
+  console.log(this.results);
 });
