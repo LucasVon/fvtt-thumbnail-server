@@ -28,7 +28,7 @@ FilePicker.prototype.getData = async function(options) {
 	  return {
 	    name: decodeURIComponent(f.split("/").pop()),
 	    url: f,
-	    img: "https://play.erewar.com/" + img
+	    img: game.settings.get("fvtt-thumbnail-server", "thumbnailServer") + img
 	  }
 	});
 	files = files.sort((a, b) => a.name.localeCompare(b.name));
