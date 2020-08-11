@@ -4,7 +4,7 @@
 	"description": "Adds an option to use a custom server to load thumbnails from in the File Picker",
 	"version": "0.1.2",
 	"author": "LucasVon",
-	"scripts": ["./fvtt-thumbnail-server.js"],
+	"esmodules": ["./fvtt-thumbnail-server.js"],
 	"packs": [],
 	"url": "https://github.com/LucasVon/fvtt-thumbnail-server",
 	"manifest": "https://raw.githubusercontent.com/LucasVon/fvtt-thumbnail-server/master/module.json",
