@@ -1,4 +1,4 @@
-import { registerSettings } from './module/settings.js';
+import { registerSettings } from './settings.js';
 
 Hooks.once('init', async function () {
     console.log('fvtt-thumbnail-server | Initializing module');
