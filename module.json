@@ -9,5 +9,5 @@
 	"url": "https://github.com/LucasVon/fvtt-thumbnail-server",
 	"manifest": "https://raw.githubusercontent.com/LucasVon/fvtt-thumbnail-server/master/module.json",
 	"download": "https://github.com/LucasVon/fvtt-thumbnail-server/archive/master.zip",
-	"minimumCoreVersion": "0.6.5"
+	"compatibleCoreVersion": "0.6.5"
 }
