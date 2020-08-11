@@ -2,7 +2,7 @@
 	"name": "fvtt-thumbnail-server",
 	"title": "Thumbnail Server",
 	"description": "Adds an option to use a custom reverse proxy server to load thumbnails from in the File Picker",
-	"version": "0.1",
+	"version": "0.1.0",
 	"author": "LucasVon",
 	"esmodules": ["./fvtt-thumbnail-server.js"],
 	"packs": [],
